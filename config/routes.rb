@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'helloworld/index'
-  get 'helloworld', to: 'helloworld#index'
+  #get 'pages/home'
+  root 'pages#home'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
